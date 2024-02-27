@@ -33,7 +33,7 @@ jobs:
         PRIVATE_REPOSITORY: ${{ secrets.PRIVATE_REPOSITORY }}
       run: |
         cp -R ./tablab-steps/steps/* ./private-steps/steps/
-        cp -R ./tablab-steps/static/images/* ./private-steps/static/images/learning/
+        cp -R ./tablab-steps/static/images/. ./private-steps/static/images/learning/
         
         cd ./private-steps
         git config user.name github-actions
