@@ -12,8 +12,12 @@
 * :writing_hand: Here you can see an example of an exercise:
   @@ExerciseBox@@
 
+## Creating the Docker image
+
 * Note that the base image of the `Dockerfile` must be an official image from the [Docker Hub][1]. If you need an image that isn't official, contact with the tablab.io team.
   * Using an official Docker image ensures that creators adhere to best practices, enhancing the reliability and quality of the exercises.
+
+## Last but not least
 
 * Lastly, please note that all submitted steps will be reviewed by the tablab.io team and we will make changes and corrections if the Steps submitted doesn't follow our format.
 * Dive into creating Steps on tablab.io and share your knowledge with the world! Your expertise can light the path of learning for others, turning every idea into an educational adventure. We are expecting you!

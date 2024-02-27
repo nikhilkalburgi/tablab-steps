@@ -1,0 +1,49 @@
+name: Sync Repositories
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'steps/**'
+      - 'static/**'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout tablab-steps
+      uses: actions/checkout@v4
+      with:
+        ref: "main"
+        path: "tablab-steps"
+        token: ${{ secrets.GIT_TOKEN }}
+
+    - name: Checkout private-steps
+      uses: actions/checkout@v4
+      with:
+        repository: "${{ secrets.PRIVATE_REPOSITORY }}"
+        ref: "public"
+        path: "private-steps"
+        token: ${{ secrets.GIT_TOKEN }}
+
+    - name: Sync changes to repository private-steps
+      env:
+        TOKEN: ${{ secrets.GIT_TOKEN }}
+        PRIVATE_REPOSITORY: ${{ secrets.PRIVATE_REPOSITORY }}
+      run: |
+        cp -R ./tablab-steps/steps/* ./private-steps/steps/
+        cp -R ./tablab-steps/static/images/* ./private-steps/static/images/learning/
+        
+        cd ./private-steps
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+
+        if git diff --quiet; then
+          echo "There isn't changes"
+        else
+          git add .
+          git commit -m "Steps merged from public repository"
+          git push https://x-access-token:${TOKEN}@github.com/${PRIVATE_REPOSITORY}.git public
+        fi
+

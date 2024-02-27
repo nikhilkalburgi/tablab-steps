@@ -15,19 +15,22 @@
 
 * `en`: This directory is reserved for the Step's content, presented in Markdown format within the `README.md` files. The English version is essential, containing the Step's title as its first line following the syntax: `# <title>`.
 * `es`: The Spanish counterpart, mirrors the English directory's structure, offering the Step's content in Spanish.
-* `docker`: Central to the setup of each Step, the docker directory plays a crucial role in storing all the files required for building the exercise's Docker image. Within this directory, the Dockerfile acts as the blueprint for generating the Docker image. If a Step is designed without an accompanying exercise, then the docker folder should be left empty.
+* `docker`: Central to the setup of each Step, the docker directory plays a crucial role in storing all the files required for building the exercise's Docker image. Within this directory, the Dockerfile will generate the Docker image. If a Step is designed without an accompanying exercise, then the docker folder should be left empty.
 * `properties.json`: This JSON file contains the metadata of a Step, which outlines the number of exercises included, the anticipated completion time in minutes, and authorship details. The file's structure is as follows:
 
-```json
-{
-  "numExercises": 0,
-  "estimatedCompletionTime": 0,
-  "author": "samus.io",
-  "authorGithubId": "samus-io"
-}
-```
+  ```json
+  {
+    "numExercises": 0,
+    "estimatedCompletionTime": 0,
+    "author": "samus.io",
+    "authorGithubId": "samus-io"
+  }
+  ```
 
 * By adhering to this structured approach, creators can ensure their Steps are both standardized and optimized for the best possible learning experience on tablab.io.
+
+## [steps-helper][2] script
+
 * To facilitate and streamline the Step creation process, we've developed the [steps-helper][2] script. This tool automates the generation of the necessary files, ensuring consistency and efficiency in Step development.
 * To successfully run the script, it's essential to first set up the required dependencies. Begin this process by navigating to the `steps-helper` directory within scripts and initiating the installation of dependencies:
 
