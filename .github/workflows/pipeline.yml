@@ -19,27 +19,27 @@ jobs:
         path: "tablab-steps"
         token: ${{ secrets.GIT_TOKEN }}
 
-    - name: Checkout private-steps
+    - name: Checkout steps
       uses: actions/checkout@v4
       with:
-        repository: ${{ secrets.PRIVATE_REPOSITORY }}
+        repository: ${{ secrets.REPOSITORY }}
         ref: "public"
-        path: "private-steps"
+        path: "steps"
         token: ${{ secrets.GIT_TOKEN }}
 
-    - name: Sync changes to repository private-steps
+    - name: Sync changes to repository steps
       env:
         TOKEN: ${{ secrets.GIT_TOKEN }}
-        PRIVATE_REPOSITORY: ${{ secrets.PRIVATE_REPOSITORY }}
+        REPOSITORY: ${{ secrets.REPOSITORY }}
       run: |
-        cp -R ./tablab-steps/steps/* ./private-steps/steps/
-        cp -R ./tablab-steps/static/images/. ./private-steps/static/images/learning/
+        cp -R ./tablab-steps/steps/* ./steps/steps/
+        cp -R ./tablab-steps/static/images/. ./steps/static/images/learning/
         
-        cd ./private-steps
+        cd ./steps
         git config user.name github-actions
         git config user.email github-actions@github.com
 
         git add .
         git commit -m "Steps merged from public repository"
-        git push https://x-access-token:${TOKEN}@github.com/${PRIVATE_REPOSITORY}.git public
+        git push https://x-access-token:${TOKEN}@github.com/${REPOSITORY}.git public
 
