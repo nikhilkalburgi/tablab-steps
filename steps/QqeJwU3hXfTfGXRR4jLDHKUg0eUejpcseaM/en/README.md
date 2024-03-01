@@ -18,14 +18,6 @@
   |Content|Content|
   ```
 
-* Visual aids should directly support the content, aiding in the explanation of concepts and making the Step more interactive and visually appealing. You can incorporate images by placing them in the `/static/images/learning` directory and referencing them in your markdown. This is the format we use to reference images:
-
-  ```markdown
-  ![image.png][1]
-  ...
-  [1]: /static/images/learning/image.png
-  ```
-
 * You can follow the markdown of this Step for reference.
 
 ## Copyright restrictions

@@ -33,7 +33,7 @@ jobs:
         REPOSITORY: ${{ secrets.REPOSITORY }}
       run: |
         cp -R ./tablab-steps/steps/* ./steps/steps/
-        cp -R ./tablab-steps/static/images/. ./steps/static/images/learning/
+        cp -R ./tablab-steps/static/images/* ./steps/static/images/learning/
         
         cd ./steps
         git config user.name github-actions
