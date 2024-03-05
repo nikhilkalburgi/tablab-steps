@@ -1,51 +1,59 @@
 # Run the helper script to create the directory structure
 
-* Each Step within our system is uniquely identified by a `nanoid` and adheres to a specific directory structure designed to organize its content and functionalities efficiently:
+* Each step must be uniquely identified by a `nanoid` and also adhered to a specific directory structure designed to organize its contents.
+
+## File and directory organization
+
+* The basic structure of a Step consists of the following, assuming in this case that the `nanoid` assigned for it is `AsRwq6SjrkyTbWhiCJZYgasTmpE5np48bQc`:
 
   ```markdown
-  Step
-  ├── docker
-  │   └── Dockerfile
-  ├── es
-  │   └── README.md
+  AsRwq6SjrkyTbWhiCJZYgasTmpE5np48bQc
   ├── en
   │   └── README.md
+  ├── es
+  │   └── README.md
+  ├── docker
+  │   └── Dockerfile
   └── properties.json
   ```
 
-* `en`: This directory is reserved for the Step's content, presented in Markdown format within the `README.md` files. The English version is essential, containing the Step's title as its first line following the syntax: `# <title>`.
-* `es`: The Spanish counterpart, mirrors the English directory's structure, offering the Step's content in Spanish.
-* `docker`: Central to the setup of each Step, the docker directory plays a crucial role in storing all the files required for building the exercise's Docker image. Within this directory, the Dockerfile will generate the Docker image. If a Step is designed without an accompanying exercise, then the docker folder should be left empty.
-* `properties.json`: This JSON file contains the metadata of a Step, which outlines the number of exercises included, the anticipated completion time in minutes, and authorship details. The file's structure is as follows:
+  * `en`: contains a single file called `README.md`, which is actually the technical content that provides the Step to the learner.
+  * `es`: this folder is optional and contains a single file called `README.md`, which is actually the technical content of the `en/README.md` file but properly translated into Spanish.
+  * `docker`: this folder is also optional, depending on whether the Step includes hands-on exercises. If so, it contains a small application encapsulated in a Docker image that will be instantiated when the Step is deployed. The Dockerfile is used to generate the Docker image.
+  * `properties.json`: contains Step metadata, describing the number of exercises included, expected completion time in minutes, and also authorship details. The content of this file is as follows:
 
-  ```json
-  {
-    "numExercises": 0,
-    "estimatedCompletionTime": 0,
-    "author": "samus.io",
-    "authorGithubId": "samus-io"
-  }
-  ```
+    ```json
+    {
+      "numExercises": 0,
+      "estimatedCompletionTime": 0,
+      "author": "samus.io",
+      "authorGithubId": "samus-io"
+    }
+    ```
 
-* By adhering to this structured approach, creators can ensure their Steps are both standardized and optimized for the best possible learning experience on tablab.io.
+## [steps-helper][1] script
 
-## [steps-helper][2] script
-
-* To facilitate and streamline the Step creation process, we've developed the [steps-helper][2] script. This tool automates the generation of the necessary files, ensuring consistency and efficiency in Step development.
-* To successfully run the script, it's essential to first set up the required dependencies. Begin this process by navigating to the `steps-helper` directory within scripts and initiating the installation of dependencies:
+* To facilitate the process of creating a Step we have included in this repository the script [steps-helper][2]. This little script automates the generation of the directory structure and the necessary files.
+* To run the script, since it is written in Node.js, it is essential to first set up the required dependencies. To do so, begin this process by navigating to the `steps-helper` directory within the `scripts` folder and start the installation of dependencies:
 
   ```bash
   cd ./scripts/steps-helper/
+  ```
+
+  ```bash
   npm install
   ```
 
-* Following the installation, proceed by moving to the steps directory to execute the script:
+* Afterwards, continue moving to the `steps` directory and then execute the script:
 
   ```bash
   cd ../../steps
+  ```
+
+  ```bash
   node ../scripts/steps-helper/index.js
   ```
 
-* Executing these commands will effectively generate the predefined structure for a Step. This structured approach ensures a streamlined setup, facilitating the creation of new Steps with ease.
+* Executing these commands will effectively generate the predefined structure for a Step. Note that we have created the directory structure for the new Step inside the `steps` folder, where all available steps are actually located.
 
-[2]: /scripts/steps-helper/
+[1]: /scripts/steps-helper/
