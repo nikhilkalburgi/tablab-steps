@@ -1,5 +1,4 @@
 FROM debian:stable
-ENV URL=https://tablab.io/checker
 
 # Update the repository sources list
 RUN apt-get update
