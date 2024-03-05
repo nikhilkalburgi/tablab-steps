@@ -1,14 +1,19 @@
-# What is actually a Step?
+# What do we understand by “Step”?
 
-* A Step is a microlearning pill crafted to cover a specific topic thoroughly, providing learners with a comprehensive and practical learning experience in a digestible format.
-* It is envisioned as a knowledge pill that delivers targeted information and knowledge, along with practical exercises. These exercises are deployed on fresh and isolated Docker instances, ensuring an optimal user experience.
+* A learning unit designed to deliver a piece of information and specific knowledge in a easily digestible format.
+* It is composed of text in Markdown format that follows a convention of using bulleted lists with short, precise sentences, like this one.
+* It can include practical exercises, which are deployed on fresh and isolated docker instances to provide an optimal user experience.
 
-## How it works?
+## What is behind this concept?
 
-* The duration of a Step is carefully capped at no more than 15 minutes, ensuring the learning process is efficient and fits within the time constraints of learners.
-* Furthermore, a Step can function independently as part of one or multiple Labs, offering flexibility in how educational content is structured and delivered. This modularity allows for the combination and customization of Steps to meet different learning needs, enabling the creation of tailored educational pathways that align with each learner's specific goals.
+* This microlearning-oriented approach enables quick absorption of new knowledge without overwhelming the learner with too much information at once.
+* It also promotes concentration and can increase the feeling of progress in learning.
+* It offers great flexibility and easy reuse of the material, as the content of the same Step, given that it is very specific and concrete, can be convenient in multiple topics.
+* It can also be useful as a reference for future occasions, especially when seeking to reread a very particular part of a given subject.
 
-## What are the benefits?
+## Features to be respected
 
-* This approach enables quick absorption and application of new knowledge without overwhelming the learner with too much information at once.
-* In essence, a Step is a powerful and flexible learning tool designed to provide accessible knowledge in a practical and concise manner, ideal for continuous learning in today's digital age.
+* The duration of a Step, in terms of the learning process, should be carefully limited to no more than 15 minutes, which ensures that absorption is effective and fits within the time constraints of the learners.
+* A Step can function independently as part of one or multiple Labs, offering flexibility in how educational content is structured and delivered.
+  * This modularity allows for the combination and customization of Steps to meet different learning needs, enabling the creation of tailored educational pathways that align with each learner's specific goals.
+  * This also means that, when creating a Step, even if the initial reason is to include it only in a single Lab, it must have a global and reusable essence.
