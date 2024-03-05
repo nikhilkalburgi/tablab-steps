@@ -20,6 +20,17 @@
 
 * You can follow the markdown of this Step for reference.
 
+## Visual Studio Code Extensions
+
+* For those utilizing Visual Studio Code, we've shared configurations for several plugins designed to enhance your Markdown writing experience.
+* To install the recommended extensions for this project, please follow these steps in Visual Studio Code:
+  * Launch Visual Studio Code in [tablab-steps][1] repository.
+  * Navigate to the Extensions view by pressing `Ctrl+Shift+X` (or `Cmd+Shift+X` on macOS).
+  * Type `@recommended` into the search bar.
+  * Click on the install button adjacent to the extensions listed under Workspace Recommendations.
+
 ## Copyright restrictions
 
 * Copyright of any information must be respected, sentences or text cannot be copied from other sites.
+
+[1]: https://github.com/samus-io/tablab-steps

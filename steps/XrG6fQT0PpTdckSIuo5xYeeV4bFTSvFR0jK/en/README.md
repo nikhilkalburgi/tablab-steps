@@ -19,7 +19,7 @@
 
 ## Last but not least
 
-* Lastly, please note that all submitted steps will be reviewed by the tablab.io team and we will make changes and corrections if the Steps submitted doesn't follow our format.
+* Lastly, please note that all submitted Steps will be reviewed by the tablab.io team and we will make changes and corrections if the Steps submitted doesn't follow our format.
 * Dive into creating Steps on tablab.io and share your knowledge with the world! Your expertise can light the path of learning for others, turning every idea into an educational adventure. We are expecting you!
 
 [1]: https://hub.docker.com/search?q=&image_filter=official

@@ -1,6 +1,6 @@
 # Run the helper script to create the directory structure
 
-* Each step must be uniquely identified by a `nanoid` and also adhered to a specific directory structure designed to organize its contents.
+* Each Step must be uniquely identified by a `nanoid` and also adhered to a specific directory structure designed to organize its contents.
 
 ## File and directory organization
 
@@ -33,7 +33,7 @@
 
 ## [steps-helper][1] script
 
-* To facilitate the process of creating a Step we have included in this repository the script [steps-helper][2]. This little script automates the generation of the directory structure and the necessary files.
+* To facilitate the process of creating a Step we have included in this repository the script [steps-helper][1]. This little script automates the generation of the directory structure and the necessary files.
 * To run the script, since it is written in Node.js, it is essential to first set up the required dependencies. To do so, begin this process by navigating to the `steps-helper` directory within the `scripts` folder and start the installation of dependencies:
 
   ```bash
