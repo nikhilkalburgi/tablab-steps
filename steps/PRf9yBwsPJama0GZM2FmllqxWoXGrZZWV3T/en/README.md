@@ -1,6 +1,6 @@
 # Clone our GitHub repository "tablab-steps" before starting
 
-* First, navigate to [tablab-steps][1] repository and click the "Fork" button. This creates a personal copy of the repository under your GitHub account.
+* First, navigate to [tablab-steps][1] repository and click the *Fork* button. This creates a personal copy of the repository under your GitHub account.
 * Then, to clone the repository, open your terminal and run the following command, replacing `username` with your actual GitHub username:
 
   ```bash

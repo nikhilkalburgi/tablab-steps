@@ -2,14 +2,13 @@
 
 * A Step can contain more than one exercise. The only thing to consider is that they must all be provided by the same containerized application.
 
-## First, create a web app that provides the exercises
+## First, create a web app that provides the exercise(s)
 
 * For any type of exercise you want to create, make sure to create an application that can be executed in [Cloud Run][1] on Google Cloud Platform. This is where our docker images are instantiated when a user deploys a Lab.
 * Regardless of the number of exercises your application offers, make sure that it always offers them in the following way according to the order in which they are intended to be displayed within the content:
   * `/0/`: when the application is requested for this path, it should display the first exercise (even if there is only one).
   * `/1/`: when the application is requested for this path, it should display the second exercise.
   * `/2/`: when the application is requested for this path, it should display the third exercise.
-* Having said that, the most common case for a Step is to only offer a single exercise.
 
 ## Second, build a Docker image
 
@@ -32,7 +31,7 @@
 ## Last, but not least
 
 * Please note that all submitted steps will be reviewed by the tablab.io team and we will make changes and corrections if the submitted steps do not follow the proper format.
-* Remember that our mission is to make tablab.io a collaborative academy, so you can be sure that you will have our full support in the Step generation process. For any questions or improvements, just contact us, we are willing to help you with anything.
+* Remember that our mission is to make tablab.io a collaborative academy, so you can be sure that you will have our full support in the Step generation process. For any questions or improvements just [contact us][3], we are willing to help you with anything.
 
 [1]: https://cloud.google.com/run
 [2]: https://hub.docker.com/search?q=&image_filter=official
