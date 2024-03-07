@@ -9,9 +9,9 @@
 
 ### Uso de emojis
 
-* :writing_hand: (`:writing_hand:`): se utiliza para indicar al lector que a continuación se encuentra un ejercicio práctico.
-* :older_man: (`:older_man:`): se utiliza para explicar algún concepto relacionado con el Step el cual no se trata específicamente.
-* :warning: (`:warning:`): se utiliza cuando es aconsejable que el lector preste atención a una sección importante.
+* :writing_hand: (`writing_hand`): se utiliza para indicar al lector que a continuación se encuentra un ejercicio práctico.
+* :older_man: (`older_man`): se utiliza para explicar algún concepto relacionado con el Step el cual no se trata específicamente.
+* :warning: (`warning`): se utiliza cuando es aconsejable que el lector preste atención a una sección importante.
 
 ### Añadir una tabla
 
