@@ -21,6 +21,7 @@
   git checkout -b lab/sqli-in-nodejs
   ```
 
-* When the content is done, go to your fork on GitHub, click `New pull request` near your branch, and review your changes. Once ready, submit your pull request with a detailed title and description, explaining what Steps you have added. We will take it from here on out.
+* When the content is done, go to your fork on GitHub, click `New pull request` near your branch, and review your changes. Once ready, submit your pull request with a detailed title and description, explaining what Steps you have added. We will take it from here on out :slightly_smiling_face:
+* Remember to write your name and your GitHub profile ID as attributes of the `properties.json` file of each Step to be able to reference your contribution on the platform.
 
 [1]: https://github.com/samus-io/tablab-steps

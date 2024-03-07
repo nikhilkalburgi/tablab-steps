@@ -15,7 +15,7 @@
 
 ### Adding a table
 
-* You can add tables when necessary. To do so, keep in mind that this is the format that our markdown render processes:
+* You can add tables when necessary. To do so, keep in mind that this is the format that our Markdown render processes:
 
   ```markdown
   |Column 1|Column 2|Column 3|
@@ -39,8 +39,8 @@
   [1]: /static/images/your-selected-image.png
   ```
   
-  Note that the image path `/static/images/your-selected-image.png` refers to the relative path where the image has supposedly been placed in this repository.
-* **Important notice**: You can add any image you want, even if you didn't create it yourself. We will be in charge of creating a new image that represents exactly the same concept but in corporate format (styles and colors) and avoiding any copyright infringement.
+  Note that the image path `/static/images/your-selected-image.png` refers to the absolute path where the image has supposedly been placed in this repository.
+* **Important notice**: you can add any image you want, even if you didn't create it yourself. We will be in charge of creating a new image that represents exactly the same concept but in corporate format (styles and colors) and avoiding any copyright infringement.
 
 ### Using Visual Studio Code
 
@@ -55,7 +55,7 @@
 
 * As a content creator, it's crucial to understand and respect copyright laws, ensuring you do not use or replicate sentences or texts from other websites or material.
 * Just exchanging words for similar meanings in a sentence, without making any changes to the sentence structure or grammar, is still recognized as a form of plagiarism.
-* AI tools can assist you in content creation, but texts directly produced by artificial intelligence systems are not allowed.
+* AI tools can assist you in content creation, but texts directly produced by artificial intelligence systems are not allowed on [tablab.io][1].
 
-[1]: https://tablab.io/
+[1]: https://tablab.io
 [2]: https://github.com/samus-io/tablab-steps

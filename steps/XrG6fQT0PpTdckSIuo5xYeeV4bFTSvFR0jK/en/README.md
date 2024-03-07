@@ -18,7 +18,7 @@
 
 ## Third, include the exercise(s) in the content
 
-* When you want to add an exercise at some point in the content of the Step, just add the following tag:
+* When you want to add an exercise at some point in the content of the Step, just add the following special tag:
 
   ```markdown
   @@ExerciseBox@@

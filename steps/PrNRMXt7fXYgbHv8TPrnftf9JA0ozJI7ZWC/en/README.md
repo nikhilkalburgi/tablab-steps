@@ -17,9 +17,9 @@
   └── properties.json
   ```
 
-  * `en`: contains a single file called `README.md`, which is actually the technical content that provides the Step to the learner.
+  * `en`: contains a single file called `README.md`, which is actually the technical content that provides the Step to the learner. This file is mandatory for each Step.
   * `es`: this folder is optional and contains a single file called `README.md`, which is actually the technical content of the `en/README.md` file but properly translated into Spanish.
-  * `docker`: this folder is also optional, depending on whether the Step includes hands-on exercises. If so, it contains a small application encapsulated in a Docker image that will be instantiated when the Step is deployed. The Dockerfile is used to generate the Docker image.
+  * `docker`: this folder is also optional, depending on whether the Step includes hands-on exercises. If so, it contains a small application encapsulated in a Docker image that will be instantiated when deploying a Lab that includes this Step. The `Dockerfile` file is used to generate the Docker image.
   * `properties.json`: contains Step metadata, describing the number of exercises included, expected completion time in minutes, and also authorship details. The content of this file is as follows:
 
     ```json
@@ -30,6 +30,8 @@
       "authorGithubId": "samus-io"
     }
     ```
+
+    * It is right here where you have to write your name and your GitHub profile ID as attributes of the `properties.json` file in order to reference your contribution on the platform.
 
 ## [steps-helper][1] script
 

@@ -1,7 +1,20 @@
-# ¿Qué es un Step?
+# ¿Qué entendemos por "Step"?
 
-* Un Step es definido como una píldora de conocimiento diseñada para abarcar un tema específico de manera exhaustiva, proporcionando a los lectores una experiencia de aprendizaje comprensiva y práctica en un formato fácilmente digerible.
-* Se concibe como una píldora de conocimiento que no solo transmite una información y conocimiento específicos, sino que también incorpora ejercicios prácticos. Estos ejercicios se implementan en instancias Docker aisladas, asegurando la óptima experiencia de usuario.
-* La duración de un Step se limita cuidadosamente a no más de 15 minutos, asegurando que el aprendizaje sea eficiente y se adapte a las limitaciones de tiempo de los lectores. Este enfoque facilita la absorción y aplicación rápida del conocimiento, evitando la sobrecarga de información.
-* Además, un Step puede funcionar tanto de manera independiente como ser parte de uno o varios Labs, ofreciendo flexibilidad en la estructuración y entrega del contenido. Esta modularidad posibilita la combinación y personalización de Steps para satisfacer diversas necesidades de aprendizaje, permitiendo la creación de trayectorias adaptadas a los objetivos particulares de cada persona.
-* En esencia, un Step representa una herramienta de aprendizaje potente y adaptable, diseñada para facilitar el acceso al conocimiento de forma práctica y concisa, ideal para el aprendizaje continuo en el contexto actual de la era digital.
+* Precisamente esto es un ejemplo real de un Step.
+* Una unidad de aprendizaje diseñada para proporcionar información y conocimientos específicos en un formato fácilmente digerible.
+* Está compuesta por texto en formato Markdown que sigue la convención de utilizar listas de enumeración con frases cortas y precisas, como esta.
+* Puede incluir ejercicios prácticos, los cuales se despliegan como instancias Docker aisladas para proporcionar una experiencia de usuario óptima.
+
+## ¿Qué hay detrás de este concepto?
+
+* Este enfoque orientado al microaprendizaje permite absorber rápidamente los nuevos conocimientos sin abrumar al lector con demasiada información a la vez.
+* También favorece la concentración y puede aumentar la sensación de progreso en el aprendizaje.
+* Ofrece una gran flexibilidad y facilidad de reutilización del material, ya que el contenido de un mismo Step, dado que es muy específico y concreto, puede ser conveniente en múltiples temas.
+* También puede ser útil a modo de referencia para futuras ocasiones, sobre todo cuando se quiere releer una parte muy concreta de un tema determinado.
+
+## Características que deben respetarse al crear un Step
+
+* La duración de un Step, en términos de proceso de aprendizaje, debe limitarse cuidadosamente a no más de 15 minutos, lo que garantiza que la absorción sea eficaz y se ajuste a las limitaciones de tiempo de los lectores.
+* Un Step puede funcionar de forma independiente como parte de uno o varios Labs, lo que ofrece flexibilidad a la hora de estructurar e impartir los contenidos educativos.
+  * Esta modularidad permite combinar y personalizar los Labs para satisfacer diferentes necesidades de aprendizaje, lo que posibilita la creación de itinerarios educativos a medida que se ajustan a los objetivos específicos de cada aspirante.
+  * Esto también significa que, al crear un Step, aunque la razón inicial sea incluirlo sólo en un único Laboratorio, debe tener una esencia global y reutilizable.
