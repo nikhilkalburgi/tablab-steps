@@ -35,4 +35,4 @@
 
 [1]: https://cloud.google.com/run
 [2]: https://hub.docker.com/search?q=&image_filter=official
-[3]: hello@samus.io
+[3]: mailto:hello@samus.io

@@ -16,7 +16,7 @@
 * Escribe en el archivo `Dockerfile` las instrucciones para generar la imagen Docker.
 * Ten en cuenta que la imagen base del `Dockerfile` debe ser una imagen oficial del [Docker Hub][2]. Si necesitas una imagen que no es oficial, [contacta con el equipo de tablab.io][3] y nosotros te la proporcionaremos.
 
-## Tercero, incluir los ejercicios en el contenido
+## Tercero, incluye los ejercicios en el contenido
 
 * Cuando quieras añadir un ejercicio en algún punto del contenido del Step, solo tienes que añadir la siguiente etiqueta:
 
@@ -35,4 +35,4 @@
 
 [1]: https://cloud.google.com/run
 [2]: https://hub.docker.com/search?q=&image_filter=official
-[3]: hello@samus.io
+[3]: mailto:hello@samus.io
