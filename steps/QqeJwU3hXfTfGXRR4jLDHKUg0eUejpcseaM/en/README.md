@@ -26,7 +26,7 @@
 
 ### Adding an image
 
-* When you want to add an image to the content to explain a concept in a more representative way, you first need get the image on your computer and then place it as a static file in the `static/images/` folder that you will find in this repository.
+* When you want to add an image to the content to explain a concept in a more representative way, you first need get the image on your computer and then place it as a static file in the `/static/images/` folder that you will find in this repository.
 * Once done, you can embed the image following the Markdown code as shown:
 
   ```markdown
@@ -40,7 +40,7 @@
   ```
   
   Note that the image path `/static/images/your-selected-image.png` refers to the relative path where the image has supposedly been placed in this repository.
-* **Important notice**: You can use any image you want, even if you didn't create it yourself. We will be in charge of creating a new image that represents exactly the same concept but in corporate format (styles and colors) and avoiding any copyright infringement.
+* **Important notice**: You can add any image you want, even if you didn't create it yourself. We will be in charge of creating a new image that represents exactly the same concept but in corporate format (styles and colors) and avoiding any copyright infringement.
 
 ### Using Visual Studio Code
 
