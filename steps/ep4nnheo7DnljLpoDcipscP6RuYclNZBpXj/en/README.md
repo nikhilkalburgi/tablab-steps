@@ -10,7 +10,7 @@
 * This microlearning-oriented approach enables quick absorption of new knowledge without overwhelming the learner with too much information at once.
 * It also promotes concentration and can increase the feeling of progress in learning.
 * It offers great flexibility and easy reuse of the material, as the content of the same Step, given that it is very specific and concrete, can be convenient in multiple topics.
-* It can also be useful as a reference for future occasions, especially when seeking to reread a very particular part of a given subject.
+* It may also be easier to find it useful as a reference for future occasions, especially when seeking to reread a very particular part of a given subject.
 
 ## Features to be respected when creating a Step
 

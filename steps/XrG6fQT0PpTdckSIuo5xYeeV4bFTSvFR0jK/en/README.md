@@ -31,7 +31,7 @@
 ## Last, but not least
 
 * Please note that all submitted steps will be reviewed by the tablab.io team and we will make changes and corrections if the submitted steps do not follow the proper format.
-* Remember that our mission is to make tablab.io a collaborative academy, so you can be sure that you will have our full support in the Step generation process. For any questions or improvements just [contact us][3], we are willing to help you with anything.
+* Remember that our mission is to make tablab.io a collaborative academy, so you can be sure that you will have our full support in the Step generation process. For any questions or improvements just [contact us][3], we are willing to help you.
 
 [1]: https://cloud.google.com/run
 [2]: https://hub.docker.com/search?q=&image_filter=official

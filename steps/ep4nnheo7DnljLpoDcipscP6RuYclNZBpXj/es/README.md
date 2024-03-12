@@ -10,7 +10,7 @@
 * Este enfoque orientado al microaprendizaje permite absorber rápidamente los nuevos conocimientos sin abrumar al lector con demasiada información a la vez.
 * También favorece la concentración y puede aumentar la sensación de progreso en el aprendizaje.
 * Ofrece una gran flexibilidad y facilidad de reutilización del material, ya que el contenido de un mismo Step, dado que es muy específico y concreto, puede ser conveniente en múltiples temas.
-* También puede ser útil a modo de referencia para futuras ocasiones, sobre todo cuando se quiere releer una parte muy concreta de un tema determinado.
+* También puede ser más fácil encontrarlo útil como referencia para futuras ocasiones, sobre todo cuando se quiere releer una parte muy concreta de un tema determinado.
 
 ## Características que deben respetarse al crear un Step
 
