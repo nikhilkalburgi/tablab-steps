@@ -5,7 +5,15 @@
 ## Sigue nuestra convención de estilo de escritura
 
 * Utiliza la sintaxis Markdown para dar estilo a todos los escritos.
-* Describa los conceptos mediante listas de enumeración con frases cortas y concretas, como esta.
+* Describe los conceptos mediante listas de enumeración con frases cortas y concretas, como esta.
+* Todas las frases deben empezar con un punto de enumeración.
+* Evita frases largas. Si es necesario, divídelas por significado, concepto o contexto.
+* Evita oraciones en primera persona al explicar un concepto, como "Imagina que estás ejecutando una plataforma en línea donde...". En su lugar, se debe utilizar el enfoque "Se puede considerar una plataforma en línea donde...".
+
+### Definición de títulos
+
+* No es necesario añadir `:` al final de un título para introducir la enumeración.
+* No se deben utilizar letras mayúsculas para palabras que no representan un concepto. Por ejemplo, el título "Casos de Uso" debería ser simplemente "Casos de uso". Sin embargo, al utilizar "Validación de Entrada" en un título, dado que representa un concepto, se debe optar por "Introducción a la Validación de Entrada" con mayúsculas, por ejemplo.
 
 ### Uso de emojis
 

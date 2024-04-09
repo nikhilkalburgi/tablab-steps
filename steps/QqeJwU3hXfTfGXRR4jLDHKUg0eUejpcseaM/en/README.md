@@ -6,12 +6,20 @@
 
 * Use Markdown syntax for styling all writings.
 * Describe concepts using bulleted lists with short, specific sentences, like this one.
+* Every sentence should begin with a bullet point.
+* Avoid long sentences. If needed, split them by meaning, concept or context.
+* Avoid first-person sentences when explaining a concept, such as "Imagine you are running an online platform where...". Instead, the "It can be considered an online platform where..." approach should be used.
+
+### Defining titles
+
+* It's not necessary to add `:` to the end of a title to introduce the bulleted list.
+* Do not use capital letters for words that do not represent a concept. For example, the title "File Upload Use Case" should simply be "File upload use case." However, when using "Input Validation" in a title, since it represents a concept by itself, we should opt for "Input Validation overview" in capital letters, for instance.
 
 ### Using emojis
 
-* :writing_hand: (`writing_hand`): used to indicate to the learner that a practical exercise follows.
-* :older_man: (`older_man`): used to explain some concept that is related to the Step but is not specifically covered.
-* :warning: (`warning`): used when the learner must pay attention to an important section.
+* :writing_hand: (`writing_hand`): is used to indicate to the learner that a practical exercise follows.
+* :older_man: (`older_man`): is used to explain some concept that is related to the Step but is not specifically covered.
+* :warning: (`warning`): is used when the learner must pay attention to an important section.
 
 ### Adding a table
 
