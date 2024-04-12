@@ -8,12 +8,12 @@
 * Describe concepts using bulleted lists with short, specific sentences, like this one.
 * Every sentence should begin with a bullet point.
 * Avoid long sentences. If needed, split them by meaning, concept or context.
-* Avoid first-person sentences when explaining a concept, such as "Imagine you are running an online platform where...". Instead, the "It can be considered an online platform where..." approach should be used.
+* Avoid first-person sentences when explaining a concept, such as "Imagine you are running an online platform where...". Instead, the impersonal approach, like “It can be considered an online platform where..." should be used.
 
 ### Defining titles
 
 * It's not necessary to add `:` to the end of a title to introduce the bulleted list.
-* Do not use capital letters for words that do not represent a concept. For example, the title "File Upload Use Case" should simply be "File upload use case." However, when using "Input Validation" in a title, since it represents a concept by itself, we should opt for "Input Validation overview" in capital letters, for instance.
+* Do not use capital letters for words that do not represent a concept. For example, the title "Use Case" should simply be "Use case." However, when using "Input Validation" in a title, since it represents a concept by itself, we should opt for "Input Validation overview" in capital letters, for instance.
 
 ### Using emojis
 
